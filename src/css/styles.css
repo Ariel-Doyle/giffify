@@ -1,0 +1,33 @@
+body{
+  background-color: lightblue;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers the items horizontally */
+  justify-content: center; /* centers the items vertically */
+}
+
+.item {
+  flex: 1;
+}
+.container2{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(167, 75, 88);
+}
+.result {
+  flex: 1;
+  flex-wrap: grid;
+  min-width: 25%;
+}
+
+.hidden {
+  display: none;
+}
+
+.hidden{
+  display:none;
+}
+

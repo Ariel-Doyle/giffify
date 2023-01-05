@@ -18,9 +18,10 @@ module.exports = {
     }),
     new ESLintPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Giphy App',
+      title: 'Gififfy',
       template: './src/index.html',
-      inject: 'body'
+      inject: 'body',
+      favicon: './src/assets/images/favicon.png'
     })
   ],
   module: {
